@@ -35,7 +35,7 @@ if($resultCheck > 0){
         // update info
         $sql2 = "UPDATE users SET name='$name', age='$age', occupation='$occupation' WHERE name = '$selectedUser';";
         $result2 = mysqli_query($conn, $sql2);
-        header("Location: http://localhost:8888/PhpFrontAndBack");
+        header("Location: http://localhost:8888/21100387_task2_crud_exercise");
     }
 
 } else {
